@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./webfiles/sass/style.css">
+    <script src="./webfiles/js/script.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <p>myWeather<span id="blue">APP</span></p>
+            <form action="#" method="GET" id="searchBar">
+                <input id="cityInput" type="text" name="" id="search">
+                <button type="submit">
+                <img src="./src/Vector.png" alt="Image d'une loupe">
+                </button>
+            </form>
+        </nav>
+    </header>
+    <h1>Soissons (02200)</h1>
+    <main>
+
+        <h2 class="secondTitle">En ce moment :</h2>
+        <div id="firstBloc">
+            <p id="temp">11°C</p>
+            <div id="picutureFistBloc">
+                <img id="cloud" src="./src/Journée Nuageux.png" alt="méteo nuageux">
+            </div>
+            <p id="wind">15 km/h</p>
+        </div>
+
+        <h2 class="secondTitle">Prévisions :</h2>
+        <div id="secondBloc">
+            <div class="dayMeteo">
+            <img src="./src/Soleil.png" alt="soleil">
+            <p class="day">Lundi</p>
+            </div>
+            <div class="dayMeteo">
+            <img src="./src/Orageux.svg" alt="orage">
+            <p class="day">Mardi</p>
+            </div>
+            <div class="dayMeteo">
+            <img src="./src/VentNuages.png" alt="vent et nuage">
+            <p class="day">Mercredi</p>
+            </div>
+            <div class="dayMeteo">
+            <img src="./src/VentNuages.png" alt="vent et nuage">
+            <p class="day" >Jeudi</p>
+            </div>
+            <div class="dayMeteo">
+            <img src="./src/Pluvieux 1.png" alt="pluie">
+            <p class="day">Vendredi</p>
+            </div>
+        </div>
+       
+    </main>
+    <footer>
+        <div id="contentFooter">
+        <p>Intégré par <span id="name">Gautier Valentin</span></p>
+        </div>
+    </footer>
+</body>
+
+</html>
